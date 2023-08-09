@@ -1,0 +1,41 @@
+.boton {
+  color: red !important;
+}
+
+.contenedor {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.mi-color {
+  background-color: aqua !important;
+  color: green !important;
+}
+
+.border {
+  border: 4px solid black !important;
+}
+
+.centrar {
+  text-align: center;
+}
+
+img {
+  height: 180px;
+}
+
+.ancho-carta {
+  width: 18rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .ancho-carta {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  img {
+    height: auto;
+  }
+}
